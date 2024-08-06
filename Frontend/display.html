@@ -59,7 +59,7 @@
           const email = $(this).data("email");
           $.ajax({
             type: "GET",
-            url: `https://live-users-registration.onrender.com/api/users/${email}`,
+            url: `https://live-server-user.onrender.com/api/users/${email}`,
             // url: `http://localhost:4000/api/users/${email}`,
 
             success: function (user) {
