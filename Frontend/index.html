@@ -140,7 +140,7 @@
 
                 $.ajax({
             type: "POST",
-            url: "https://live-server-user.onrender.com/api/users/${formData.emailId}",
+            url: `https://live-server-user.onrender.com/api/users/${formData.emailId}`,
             data: JSON.stringify(formData),
             contentType: "application/json",
             success: function (response) {
