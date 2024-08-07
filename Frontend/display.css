@@ -121,3 +121,15 @@ tr:hover {
 #closePopup:hover {
   background-color: #0056b3;
 }
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.5em;
+  }
+  #userList tr {
+    font-size: 14px;
+  }
+  #closePopup {
+    padding: 8px;
+  }
+}
