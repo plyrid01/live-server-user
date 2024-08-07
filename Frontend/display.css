@@ -64,17 +64,44 @@ td {
 
 th,
 td {
-  padding: 15px;
+  padding: 10px;
+  border: 1px solid rgba(180, 181, 165, 0.9);
+
+  /* border: 1px solid #ddd; */
   text-align: left;
-  background-color: #7ea7b5;
-  color: #022b32;
-  font-size: 25px;
 }
 
 th {
-  background-color: #101e38c9;
+  /* background-color: #026144; */
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  
   color: white;
 }
+
+td {
+  /* background-color: #7ea7b5; */
+  background-color: #ca78ae;
+
+  color: #022b32;
+}
+
+.user-status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-status.online {
+  background-color: rgb(9, 211, 19);
+}
+
+.user-status.offline {
+  background-color: red;
+}
+
 tr:hover {
   cursor: pointer;
   transform: scale(1.02);
