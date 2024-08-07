@@ -102,15 +102,10 @@ tr:hover {
   margin-bottom: 20px;
 }
 
-
-/* #addNewUserBtn:hover {
-  background-color: #06d6a0;
-} */
-
 #closePopup {
-  padding: 20px 30px;
-  background-color: #007bff;
-  color: #fff;
+  padding: 10px 20px;
+  background-color: #4d32d8;
+  color: #ffffffeb;
   font-weight: bold;
   border: none;
   border-radius: 5px;
@@ -119,7 +114,7 @@ tr:hover {
 }
 
 #closePopup:hover {
-  background-color: #0056b3;
+  background-color: #6750dc;
 }
 
 @media (max-width: 600px) {
